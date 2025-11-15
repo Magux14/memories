@@ -1,0 +1,22 @@
+.dialog-box {
+    &__container {
+        border-radius: 8px;
+        position: fixed;
+        padding: 20px;
+        border: 4px solid black;
+        width: 100%;
+        height: 25vh;
+        bottom: 0;
+        background: white;
+        color: black;
+        z-index: 2;
+        font-size: 20px;
+    }
+
+    &__speaker {
+        position: absolute;
+        bottom: 20vh;
+        left: 10px;
+        width: 60%;
+    }
+}

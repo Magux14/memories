@@ -1,0 +1,12 @@
+.layout {
+    display: flex;
+    justify-content: center;
+
+    &__children {
+        height: 100vh;
+        max-height: 100vh;
+        width: 100%;
+        max-width: 700px;
+        background: white;
+    }
+}

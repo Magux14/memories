@@ -1,0 +1,15 @@
+import './dialog-box.scss';
+
+export const DialogBox = ({ dialog, nextDialog }) => {
+    console.log(dialog);
+    return (
+        <>
+            <div className="dialog-box__container" onClick={() => nextDialog()}>
+                <span>
+                    {dialog?.desc}
+                </span>
+            </div>
+            <img className="dialog-box__speaker" src={`.././img/characters/${dialog?.img}`} />
+        </>
+    )
+}
