@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import { useDialog } from '../../hooks/dialog';
+import { useDialog } from '../../hooks/useDialog';
 import { lstStories } from '../../../data/stories';
 import { useEffect } from 'react';
 import { DialogBox } from '../../components/dialog-box/DialogBox';
@@ -8,7 +8,7 @@ import './story.scss';
 export const Story = () => {
 
     console.log('story')
-    const { setDialog, nextDialog, currentDialog } = useDialog();
+    const { story, setStory, nextDialog, currentDialog } = useDialog();
     const { id } = useParams();
     const navigate = useNavigate()
 
@@ -24,13 +24,27 @@ export const Story = () => {
         console.log(lstStories);
         const index = lstStories.findIndex(item => item.id == id);
         if (index != -1) {
-            setDialog([...lstStories[index].lstDialogs].concat([{}]));
+            setStory(lstStories[index]);
         }
     }, []);
 
+    useEffect(() => {
+        console.log('currentDialog', currentDialog);
+    }, [currentDialog]);
+
     return (
-        <div className="story__container">
-            <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
-        </div>
+        <>
+            {
+                story &&
+                <div className="story__container"
+                    style={{
+                        backgroundImage: `url(..//img/background/${story?.background})`,
+                        backgroundSize: '100% 100%'
+                    }}
+                >
+                    <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
+                </div>
+            }
+        </>
     )
 }

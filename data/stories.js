@@ -2,7 +2,8 @@ export const lstStories = [
     {
         id: 1,
         name: 'No se como empezar',
-        lstDialogs: [
+        background: 'empty-room.webp',
+        lstDialog: [
             {
                 desc: 'Realmente no se por qué estoy haciendo esto, ni siquiera sé si lo verás, supongo es una manera de desahogarme...',
                 img: 'jor.webp'
@@ -28,7 +29,7 @@ export const lstStories = [
     {
         id: 2,
         name: 'Construyendo la página de Chucho',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '¿Recuerdas cuando estaba trabajando en la página de la boda de chucho?',
                 img: 'jor.webp'
@@ -72,7 +73,7 @@ export const lstStories = [
     {
         id: 3,
         name: 'Cero contacto',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: 'Cuando me iba a mudar y te fuiste a casa de tu mamá y te llevaste a los niños, algo se rompió dentro de mi, no estaba listo para verlos por última vez.',
                 img: 'jor.webp'
@@ -98,7 +99,7 @@ export const lstStories = [
     {
         id: 4,
         name: 'Cambiar de pantalla',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '¿Sabes? estuve pensando mucho en lo que me decías de que cambiaba mucho la pantalla de mi computadora cuando llegabas.',
                 img: 'jor.webp'
@@ -128,7 +129,7 @@ export const lstStories = [
     {
         id: 5,
         name: 'Los niños',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: 'Es curioso como 2 perritos pueden ser algo tan importante en mi vida, vaya ustedes eran mi familia',
                 img: 'jor.webp'
@@ -161,7 +162,7 @@ export const lstStories = [
     },
     {
         name: '',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '',
                 img: 'jor.webp'
@@ -170,7 +171,7 @@ export const lstStories = [
     },
     {
         name: '',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '',
                 img: 'jor.webp'
@@ -179,7 +180,7 @@ export const lstStories = [
     },
     {
         name: '',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '',
                 img: 'jor.webp'
@@ -188,7 +189,7 @@ export const lstStories = [
     },
     {
         name: '',
-        lstDialogs: [
+        lstDialog: [
             {
                 desc: '',
                 img: 'jor.webp'

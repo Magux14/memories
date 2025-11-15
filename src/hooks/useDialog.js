@@ -2,16 +2,12 @@ import { useState } from "react"
 
 export const useDialog = () => {
 
-    const [lstDialog, setLstDialog] = useState([]);
+    const [story, setStory] = useState();
     const [currentDialogIndex, setCurrentDialogIndex] = useState(0);
-
-    const setDialog = (lstDialog) => {
-        setLstDialog(lstDialog);
-    }
 
     const nextDialog = () => {
         let nextDialog = currentDialogIndex + 1;
-        if (nextDialog >= lstDialog.length) {
+        if (nextDialog > story.lstDialog.length) {
             nextDialog = -1;
         }
         console.log(nextDialog);
@@ -20,9 +16,10 @@ export const useDialog = () => {
     }
 
     return {
-        setDialog,
+        story,
+        setStory,
         nextDialog,
-        currentDialog: lstDialog[currentDialogIndex]
+        currentDialog: story ? story.lstDialog[currentDialogIndex] : null
     }
 
 }
