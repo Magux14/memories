@@ -9,7 +9,10 @@ export const DialogBox = ({ dialog, nextDialog }) => {
                     {dialog?.desc}
                 </span>
             </div>
-            <img className="dialog-box__speaker" src={`.././img/characters/${dialog?.img}`} />
+            {
+                dialog?.img &&
+                <img className="dialog-box__speaker" src={`.././img/characters/${dialog.img}`} />
+            }
         </>
     )
 }

@@ -48,7 +48,7 @@ export const Story = () => {
                 <div className="story__container"
                     style={{
                         backgroundImage: `url(../img/background/${story?.background ? story.background : 'default.webp'})`,
-                        backgroundSize: 'auto 100%',
+                        backgroundSize: '120% auto',
                         backgroundRepeat: 'no-repeat'
                     }}
                 >
