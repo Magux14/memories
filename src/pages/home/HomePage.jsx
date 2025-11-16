@@ -10,7 +10,7 @@ export const HomePage = () => {
 
     const navigate = useNavigate()
     const goToStory = (story) => {
-        navigate(`/story/${story.id}`)
+        navigate(`/story/${story.id}`);
     }
 
     const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date > b.date ? 1 : -1);

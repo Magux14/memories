@@ -4,10 +4,12 @@ import { lstStories } from '../../../data/stories';
 import { useEffect } from 'react';
 import { DialogBox } from '../../components/dialog-box/DialogBox';
 import './story.scss';
+import { useFirebase } from '../../hooks/useFirebase';
 
 export const Story = () => {
 
     const { story, setStory, nextDialog, currentDialog } = useDialog();
+    const { writeDatafirebaseAsync } = useFirebase();
     const { id } = useParams();
     const navigate = useNavigate()
 
@@ -20,10 +22,15 @@ export const Story = () => {
     }
 
     useEffect(() => {
-        console.log(lstStories);
         const index = lstStories.findIndex(item => item.id == id);
         if (index != -1) {
             setStory(lstStories[index]);
+            writeDatafirebaseAsync('stories', {
+                storyName: lstStories[index].name,
+                date: new Date(),
+                deviceInfo: navigator.userAgent
+            })
+
         }
     }, []);
 
@@ -32,7 +39,7 @@ export const Story = () => {
         if (!haveAccess) {
             navigate('/');
         }
-    }, [currentDialog]);
+    }, []);
 
     return (
         <>
