@@ -9,7 +9,7 @@ export const HomePage = () => {
         navigate(`/story/${story.id}`)
     }
 
-    const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date < b.date ? 1 : -1);
+    const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date > b.date ? 1 : -1);
 
     return (
         <div className="home-page__container">
@@ -20,7 +20,7 @@ export const HomePage = () => {
                             {item.date}
                         </div>
                         <div>
-                            #{lstStoriesFiltered.length - index}. {item.name}
+                            #{index + 1}. {item.name}
                         </div>
                     </div>
                 )
