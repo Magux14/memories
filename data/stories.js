@@ -14,7 +14,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Yo creo que la única manera de sanar es sabiendo que estoy escribiendo estos mensaje a ti, aunque no llegues a verlos.',
+                desc: 'Creo que la única manera de sanar es sabiendo que estoy escribiendo estos mensaje a ti, aunque no llegues a verlos.',
                 img: 'jor.webp'
             },
             {
@@ -22,7 +22,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Tampoco sé exactamente que quiero lograr con esto, simplemente quiero decirte cosas que nunca te dije.',
+                desc: 'Tampoco sé exactamente que quiero lograr con esto, simplemente quiero decirte cosas que nunca te dije, me está sirviendo hacerlo.',
                 img: 'jor.webp'
             },
         ]
@@ -34,7 +34,7 @@ export const lstStories = [
         background: 'se-lleva-niños.webp',
         lstDialog: [
             {
-                desc: 'Hoy te llevaste a los niños, te fuiste a casa de tu mamá y te los llevaste...',
+                desc: 'Hoy te fuiste a los niños, te fuiste a casa de tu mamá y te los llevaste...',
                 img: 'jor.webp'
             },
             {
@@ -42,7 +42,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Ese día me congelé, casi no moví nada de cosas, simplemente no podía.',
+                desc: 'Ese día me congelé, casi no moví nada de cosas para mudarme, simplemente no podía aceptar lo que estaba pasando.',
                 img: 'jor.webp'
             },
         ]
@@ -62,11 +62,11 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Solo se que me siento muy triste, estoy en "modo automático"',
+                desc: 'Solo se que me siento devastado, estoy en "modo automático" moviendo y tirando cosas, de vez en cuando salgo al balcón a fumar, no puedo evitar llorar',
                 img: 'jor.webp'
             },
             {
-                desc: 'terminé muy tarde, solo quiero regresar a "casa"',
+                desc: 'Terminé muy tarde, solo quiero regresar a "casa"',
                 img: 'jor.webp'
             },
         ]
@@ -88,6 +88,10 @@ export const lstStories = [
             {
                 desc: 'Mi hogar está en bretaña',
                 img: 'jor.webp'
+            },
+            {
+                desc: 'No paro de llorar',
+                img: 'jor.webp'
             }
         ]
     },
@@ -98,7 +102,7 @@ export const lstStories = [
         date: '2025-10-31 (2)',
         lstDialog: [
             {
-                desc: 'Me siento bastante mal, mis amigos me dicen que tengo que distraerme, despejarme. Se supone que la mudanza iba a llegar hoy, pero me cancelaron...',
+                desc: 'Me siento bastante mal, mis amigos me dicen que tengo que distraerme, despejarme. Se supone que la mudanza iba a llegar hoy, pero cancelaron...',
                 img: 'jor.webp'
             },
             {
@@ -110,11 +114,15 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Regresé a bretaña con un vacío enorme',
+                desc: 'Regresé a bretaña con un vacío enorme, te imaginaba junto a mi en el coche, imaginé como tocaba tu pierna mientras menajeba y te decía "ahorita que llegemos te hago masajito"',
                 img: 'jor.webp'
             },
             {
-                desc: 'Al día siguiente en casa de Lalo, fue exactamente lo mismo, solo que esta vez regresé aún más temprano.',
+                desc: 'Fue una noche muy difícil.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Al día siguiente igual fui al halloween de la casa de Lalo, fue exactamente lo mismo, solo que esta vez regresé aún más temprano, aguanté menos...',
                 img: 'jor.webp'
             },
         ]
@@ -126,11 +134,11 @@ export const lstStories = [
         date: '2025-11-01',
         lstDialog: [
             {
-                desc: 'Hoy por fin llegó el día, el día de la mudanza.',
+                desc: 'Hoy por fin llegó el día, el día de la mudanza, salí a caminar un rato, no estaba listo para esto.',
                 img: 'jor.webp'
             },
             {
-                desc: 'Se empezaron a llevar los muebles, todo pasó muy rápido, todavía no siento esa seguridad de saber lo que estoy haciendo, me siento triste.',
+                desc: 'Se empezaron a llevar los muebles, todo pasó muy rápido, todavía no siento esa seguridad de saber lo que estoy haciendo, me siento muy triste.',
                 img: 'jor.webp'
             },
             {
@@ -142,7 +150,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Intencionalmente dejé algunas cosas en bretaña  para tener un pretexto y regresar',
+                desc: 'Intencionalmente dejé algunas cosas en bretaña para tener un pretexto y regresar... regresar a mi "hogar"',
                 img: 'jor.webp'
             },
             {
@@ -157,15 +165,15 @@ export const lstStories = [
         date: '2025-11-02',
         lstDialog: [
             {
-                desc: 'Hoy me desperté y sabía que tenía que terminar de mover todo, meto mis cosas restantes en cajas y bolsas, creo que esta vez me costó mucho más trabajo que nunca, siento que hago todo muy lento. Porque en verdad no quiero hacerlo.',
+                desc: 'Hoy me desperté y de nuevo no te vi a mi lado... un vacío enorme llego a mi al desperat. Sabía que tenía que terminar de mover todo, meto mis cosas restantes en cajas y bolsas, creo que esta vez me costó mucho más trabajo que nunca, siento que hago todo muy lento. Porque en verdad no quiero hacerlo.',
                 img: 'jor.webp'
             },
             {
-                desc: 'Termino en la noche y se que es hora de llamarte para ver las cosas pendientes que teníamos, ya sabes los botes de basura, cesto de ropa...',
+                desc: 'Termino en la noche y se que es hora de llamarte para ver las cosas pendientes que teníamos, ya sabes los botes de basura, cesto de ropa... me doy cuenta de que me mandaste un mensaje',
                 img: 'jor.webp'
             },
             {
-                desc: 'Me armo de valor y te marco.',
+                desc: '-"Hola! Oye, no es presión, pero cómo vas con tus cosas", Me armo de valor y te marco.',
                 img: 'jor.webp'
             },
             {
@@ -173,7 +181,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Me hablaste muy fría, como si yo fuera cualquier persona, eso me dolió mucho. Para mi nunca haz sido cualquier persona.',
+                desc: 'Me hablaste muy fría, como si yo fuera cualquier persona, eso me dolió mucho. Para mi nunca haz sido cualquier persona y tu actuabas como si yo si lo fuera.',
                 img: 'jor.webp'
             },
             {
@@ -185,7 +193,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'En toda la llamada tenía unas ganas inmensas de llorar, mientras veía como tú estabas firme, ya no te afectaba, te despediste de una forma tan indiferente...',
+                desc: 'En toda la llamada tenía unas ganas inmensas de llorar, no pude controlarlo, lloré, mientras veía como tú estabas firme, ya no te afectaba, te despediste de una forma tan indiferente...',
                 img: 'jor.webp'
             },
             {
@@ -196,6 +204,38 @@ export const lstStories = [
                 desc: 'No pude dormir bien, me costaba trabajo entender que sería la última noche que dormiría ahí.',
                 img: 'jor.webp'
             }
+        ]
+    },
+    {
+        id: 17,
+        name: 'Última mañana',
+        background: '.webp',
+        date: '2025-11-03',
+        lstDialog: [
+            {
+                desc: 'Hoy me despierto muy triste, era la última mañana despertando en mi hogar.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Mi papá está insistente en que ya corte el internet y me lleve la pantalla, pero no me importa, yo quedé en algo contigo.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Te aviso que ya terminé con todo y que ya dejaré el departamento, me voy a tripoli.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Guardando varias cosas me doy cuenta de que sin querer me llevé cosas que no eran mías, me duele y me emociona un poco saber que tengo que regresar a dejarlas.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Me dices que las llaves eran para danny.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Yo se que no puedo dejarte así como así las llaves, vaya, son importantes y estoy en un contrato, pero decido confiar en ti, te las voy a ir a dejar al departamento',
+                img: 'jor.webp'
+            },
         ]
     },
     {
@@ -216,7 +256,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'De camino me doy cuenta de que los niños no estarán contigo, me decopciono un poco, vaya te irás a la boda de vania, es obvio que ahorita no estarán ahí... pero todavía te veré sigo emocionado',
+                desc: 'De camino me doy cuenta de que los niños no estarán contigo, me decepciono un poco, vaya, te irás a la boda de vania, es obvio que ahorita no estarán ahí... pero todavía te veré sigo emocionado',
                 img: 'jor.webp'
             },
             {
@@ -248,7 +288,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Regreso a mi casa y empiezo a hacer el balance de las cosas con la depreciación, lo hago muyy cuidadosamente, busco y me ayudo con la depreciación de cada elemento en específico, electrodomésticos, muebles, todo...',
+                desc: 'Regreso a mi casa y empiezo a hacer el balance de las cosas con la depreciación, lo hago muy cuidadosamente, busco y me ayudo con la depreciación de cada elemento en específico, electrodomésticos, muebles, todo...',
                 img: 'jor.webp'
             },
             {
@@ -272,7 +312,7 @@ export const lstStories = [
         background: 'sueño-navidad.webp',
         lstDialog: [
             {
-                desc: 'Hoy volví a soñar contigo. Unas peronas me ofrecieron un trabajo para ordenar las cosas de una tienda, no me iban a pagar, pero me ofrecieron que si encontraba algo de navidad, me lo podía llevar.',
+                desc: 'Hoy volví a soñar contigo (He estado soñando contigo todos los días). En el sueño unas personas me ofrecieron un trabajo para ordenar las cosas de una tienda, no me iban a pagar, pero me ofrecieron que si encontraba algo de navidad, me lo podía llevar.',
                 img: 'jor.webp'
             },
             {
@@ -280,7 +320,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Son fragmentos de cosas inservisbles que ellos dejaron apropósito para que yo viera que si había algo.',
+                desc: 'Son fragmentos de cosas inservisbles que ellos dejaron apropósito para que yo viera que al menos si había algo.',
                 img: 'jor.webp'
             },
             {
@@ -327,11 +367,11 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'En la boda de Vania cuando subiste estados de "y yo siendo la dama más feliz", cuando yo me estaba cayendo a pedazos...',
+                desc: 'En la boda de Vania cuando subiste estados de "y yo siendo la dama más feliz", cuando yo me estaba cayendo a pedazos... siento que no valí nada para ti, que no importé',
                 img: 'jor.webp'
             },
             {
-                desc: 'No lo pude soportar, de cierta manera sabía que estabas subiendo esas descripciones con cierta doble intención, para lastimarme... ¿sabes? lo lograste. Es por eso que te bloqué',
+                desc: 'No lo pude soportar, de cierta manera sabía que estabas subiendo esas descripciones con cierta doble intención, para lastimarme... ¿sabes? lo lograste. con mucho dolor procedo a bloquearte de instagram y fb',
                 img: 'jor.webp'
             }
         ]
@@ -363,7 +403,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Hoy subiste un estado diciendo que jamás los volvería a abrazar... ahí supe que tu respuesta fue no.',
+                desc: 'Hoy subiste un estado en whatsapp (me faltó bloquearte de ahí) diciendo que jamás los volvería a abrazar... ahí supe que tu respuesta fue no.',
                 img: 'jor.webp'
             },
             {
@@ -404,12 +444,40 @@ export const lstStories = [
         ]
     },
     {
+        id: 18,
+        name: 'Alguien más',
+        background: '.webp',
+        date: '2025-11-12',
+        lstDialog: [
+            {
+                desc: 'Hoy me enteré que metiste a alguien al departamento.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'No puedo dejar de imaginar que pasó ese día, mi mente se llena de imagenes horribles de ti con alguien más, imaginar que estás en lo que era nuestro hogar con otra persona.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Me siento destrozado.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Me viene a la mente un recuerdo de nosotros hablando sobre que si algún día nos llegáramos a separar, que íbamos a respetar el "nido" que era solo nuestro, algo de los 2 y de nadie más',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Tengo que ser fuerte y aceptar la realidad.',
+                img: 'jor.webp'
+            },
+        ]
+    },
+    {
         id: 2,
         date: '2025-11-13',
         name: 'Construyendo la página de Chucho',
         lstDialog: [
             {
-                desc: '¿Recuerdas cuando estaba trabajando en la página de la boda de chucho?',
+                desc: 'Hoy me siento un poco mejor, me pongo a pensar en muchas cosas ¿Recuerdas cuando estaba trabajando en la página de la boda de chucho?',
                 img: 'jor.webp'
             },
             {
@@ -417,7 +485,7 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Te quedaste viendo a la pantalla por un momento y escuchaste esta canción:',
+                desc: 'Te quedaste viendo a la pantalla por un momento y escuchaste la canción de la invitación (Grecia Vallejo - Te voy a amar)',
                 img: 'jor.webp',
                 audio: 'audio-boda-chucho.mp3'
             },
@@ -434,16 +502,31 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Todavía me pregunto, ¿Qué tenías ese día?',
+                desc: 'Todavía me pregunto, ¿Qué tenías ese día? supongo nunca lo sabré',
+                img: 'jor.webp'
+            },
+        ]
+    },
+    {
+        id: 7,
+        name: '¿Viajaré solo?',
+        date: '2025-11-14',
+        background: 'cumple-papa.webp',
+        lstDialog: [
+            {
+                desc: 'Pensar en mi viaje a estados unidos me pone muy triste, no solo el hecho de que yo quería ir contigo',
                 img: 'jor.webp'
             },
             {
-                desc: '',
-                type: 'input',
+                desc: 'Si no de que organicé todo para regresar el 22 de diciembre, y pasar el 23 contigo, en mi cumpleaños. Quería estar contigo y con los niños en este día.',
                 img: 'jor.webp'
             },
             {
-                desc: 'ohhh...',
+                desc: 'Cada que pienso en eso empiezo una tristeza inmensa se apodera de mi.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Estoy platicando con unos amigos de la universidad, tal vez ya no vaya solo, eso me reconforta un poco.',
                 img: 'jor.webp'
             },
         ]
@@ -469,67 +552,19 @@ export const lstStories = [
         ]
     },
     {
-        id: 17,
-        name: '',
-        background: '.webp',
-        date: '2025-11-03',
+        id: 14,
+        name: 'Nuevo día',
+        date: '2025-11-16',
+        background: 'cumple-papa.webp',
         lstDialog: [
             {
-                desc: 'Hoy me despierto muy triste, era la última mañana despertando en mi hogar.',
+                desc: 'Hoy no soñé contigo',
                 img: 'jor.webp'
             },
             {
-                desc: 'Mi papá está insistente en que ya corte el internet y me lleve la pantalla, pero no me importa, yo quedé en algo contigo.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'Te aviso que ya terminé con todo y que ya dejaré el departamento, me voy a tripoli.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'Guardando varias cosas me doy cuenta de que sin querer me llevé cosas que no eran mías, me duele y me emociona un poco saber que tengo que regresar a dejarlas.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'Me dices que las llaves eran para danny.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'Yo se que no puedo dejarte así como así las llaves, vaya, son importantes y estoy en un contrato, pero decido confiar en ti, te las voy a ir a dejar al departamento',
+                desc: 'Estoy subiendo todas estos escritos, sin saber si los verás o no, pero creo que me está ayudando, me siento un poco mejor',
                 img: 'jor.webp'
             },
         ]
     },
-    {
-        id: 18,
-        name: 'Alguien más',
-        background: '.webp',
-        date: '2025-11-12',
-        lstDialog: [
-            {
-                desc: 'Hoy me enteré que metiste a alguien al departamento.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'No puedo dejar de imaginar que pasó ese día, mi mente se llena de imagenes horribles de ti con alguien más, imaginar que estás en lo que era nuestro hogar con otra persona.',
-                img: 'jor.webp'
-            },
-            {
-                desc: 'Me siento destrozado.',
-                img: 'jor.webp'
-            },
-        ]
-    },
-    {
-        id: 19,
-        name: '',
-        background: '.webp',
-        date: '2025-11-01',
-        lstDialog: [
-            {
-                desc: '',
-                img: 'jor.webp'
-            },
-        ]
-    }
 ]
