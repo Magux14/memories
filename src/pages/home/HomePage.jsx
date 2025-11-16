@@ -9,12 +9,19 @@ export const HomePage = () => {
         navigate(`/story/${story.id}`)
     }
 
+    const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date < b.date ? 1 : -1);
+
     return (
         <div className="home-page__container">
             {
-                lstStories.filter(item => item.name).map((item, index) =>
+                lstStoriesFiltered.map((item, index) =>
                     <div className="home-page__story-container" key={item.name + index} onClick={() => goToStory(item)}>
-                        {item.name}
+                        <div>
+                            {item.date}
+                        </div>
+                        <div>
+                            #{lstStoriesFiltered.length - index}. {item.name}
+                        </div>
                     </div>
                 )
             }

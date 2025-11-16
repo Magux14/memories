@@ -38,10 +38,14 @@ export const Story = () => {
                 story &&
                 <div className="story__container"
                     style={{
-                        backgroundImage: `url(..//img/background/${story?.background})`,
-                        backgroundSize: '100% 100%'
+                        backgroundImage: `url(../img/background/${story?.background})`,
+                        backgroundSize: 'auto 100%',
+                        backgroundRepeat: 'no-repeat'
                     }}
                 >
+                    <div className="story__date">
+                        {story.date}
+                    </div>
                     <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
                 </div>
             }
