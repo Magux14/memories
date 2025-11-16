@@ -7,7 +7,6 @@ import './story.scss';
 
 export const Story = () => {
 
-    console.log('story')
     const { story, setStory, nextDialog, currentDialog } = useDialog();
     const { id } = useParams();
     const navigate = useNavigate()
@@ -29,7 +28,10 @@ export const Story = () => {
     }, []);
 
     useEffect(() => {
-        console.log('currentDialog', currentDialog);
+        const haveAccess = sessionStorage.getItem('access');
+        if (!haveAccess) {
+            navigate('/');
+        }
     }, [currentDialog]);
 
     return (

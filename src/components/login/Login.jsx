@@ -1,10 +1,17 @@
 import { useState } from "react"
+import './login.scss';
 
 export const Login = ({ callbackClose }) => {
 
     const [password, setPassWord] = useState('');
 
     const handleSetPassword = (input) => {
+        console.log(input);
+        if (input.toLowerCase() == 'akithor') {
+            sessionStorage.setItem('access', true);
+            callbackClose();
+        }
+
         setPassWord(input);
     }
 
@@ -14,7 +21,7 @@ export const Login = ({ callbackClose }) => {
                 Nuestra contraseña
             </div>
 
-            <input type="text" onChange={(ev) => handleSetPassword(ev.target.value)} />
+            <input type="password" onChange={(ev) => handleSetPassword(ev.target.value)} />
         </div>
     )
 }
