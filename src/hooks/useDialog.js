@@ -10,7 +10,6 @@ export const useDialog = () => {
         if (nextDialog > story.lstDialog.length) {
             nextDialog = -1;
         }
-        console.log(nextDialog);
         setCurrentDialogIndex(nextDialog)
         return nextDialog == -1;
     }

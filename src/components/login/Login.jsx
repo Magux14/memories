@@ -6,7 +6,6 @@ export const Login = ({ callbackClose }) => {
     const [password, setPassWord] = useState('');
 
     const handleSetPassword = (input) => {
-        console.log(input);
         if (input.toLowerCase() == 'akithor') {
             sessionStorage.setItem('access', true);
             callbackClose();
