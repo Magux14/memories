@@ -560,8 +560,47 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Estoy subiendo todas estos escritos, sin saber si los verás o no, pero creo que me está ayudando, me siento un poco mejor',
+                desc: 'Estoy subiendo todos estos escritos, sin saber si los verás o no, pero creo que me está ayudando, me siento un poco mejor',
                 img: 'jor.webp'
+            },
+        ]
+    },
+    {
+        id: 20,
+        name: 'No sabía que sería la última',
+        date: '2025-11-17',
+        lstDialog: [
+            {
+                desc: 'Hoy me di cuenta de algo, yo noy el tipo de persona que suele compartir su vida en redes sociales, es extraño que yo suba historias o algo así.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Yo creo que es porque realmente no me interesa que los demás se enteren de mi vida, solo me interesaba que lo supieras tú',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Ultimamente mi algoritmo de instagram y fb me ha jugado muy chueco, me salen vídeos de rompimientos y etapas de duelo... algunos me ayudan pero otros solo me hacen pensar en ti y en lo que ya nunca será.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Y esta mañana estuve pensando mucho en ti...',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'No recuerdo la última vez que te besé.',
+                img: 'jor-triste.webp'
+            },
+            {
+                desc: 'Me arrepiento de no haberte besado la última vez que hicimos el amor. Estábamos enojados, pero yo quería.. no, más bien necesitaba abrazarte en la noche, estar junto a tí. Una cosa llevo a otra, pero no te besé... no sabes como me arrepiento de eso.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'No sabía que sería la última vez.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'No te lo dije, pero me sigue doliendo mucho que ese día prefirieras meterte a bañar para estar lista para él, que hacer el amor conmigo.',
+                img: 'jor-triste.webp'
             },
         ]
     },
