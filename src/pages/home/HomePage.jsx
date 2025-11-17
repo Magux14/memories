@@ -13,7 +13,7 @@ export const HomePage = () => {
         navigate(`/story/${story.id}`);
     }
 
-    const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date > b.date ? 1 : -1);
+    const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date < b.date ? 1 : -1);
 
     useEffect(() => {
         const haveAccess = sessionStorage.getItem('access');
@@ -36,7 +36,7 @@ export const HomePage = () => {
                                 {item.date}
                             </div>
                             <div>
-                                #{index + 1}. {item.name}
+                                #{lstStoriesFiltered.length - index}. {item.name}
                             </div>
                         </div>
                     )

@@ -604,4 +604,41 @@ export const lstStories = [
             },
         ]
     },
+    {
+        id: 21,
+        name: 'Fumar',
+        background: 'fumar.webp',
+        date: '2025-11-18',
+        lstDialog: [
+            {
+                desc: 'Ahora esta mi vista cuando voy a fumar, estoy fumando más que nunca. Supongo que hacerlo me hace sentir cerca de ti.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Aquí vengo pensar en ti y en los niños.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Tengo muchas ganas de saber que estás haciendo, que piensas, pero se que no me hará bien.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Tengo miedo de saber con quien estás, sabiendo que no soy yo.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Que ese lugar donde me sentía seguro, junto a ti... ahora lo ocupa otra persona.',
+                img: 'jor-triste.webp'
+            },
+            {
+                desc: 'No se si estás viendo esto, vaya... Me siento un poco loco por estar escribiendo esto, siento que estoy hablando solo, pero me ayuda.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Por favor abraza y besa a los niños por mi. Los extraño demasiado a todos ustedes',
+                img: 'jor-triste.webp'
+            },
+
+        ]
+    },
 ]
