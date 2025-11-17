@@ -33,10 +33,10 @@ export const HomePage = () => {
                     lstStoriesFiltered.map((item, index) =>
                         <div className="home-page__story-container" key={item.name + index} onClick={() => goToStory(item)}>
                             <div>
-                                {item.date}
+                                #{lstStoriesFiltered.length - index}. {item.name}
                             </div>
                             <div>
-                                #{lstStoriesFiltered.length - index}. {item.name}
+                                {item.date}
                             </div>
                         </div>
                     )
