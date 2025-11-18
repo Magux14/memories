@@ -615,11 +615,23 @@ export const lstStories = [
                 img: 'jor.webp'
             },
             {
-                desc: 'Aquí vengo pensar en ti y en los niños.',
+                desc: 'Me siento raro ¿sabes?, ni siquiera se si estás viendo esto o solo estoy hablando solo, sea como sea, si me está ayudando mucho.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Ayer me hablaste para preguntarme algo de los pagos, pero... no sentí que fueras tú. Ahora siento que hay 2 de ti, la Nay que es la de verdad y la Nay a quien le estoy escribiendo todo esto, a la Nay que todavía idealizo.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Supongo que es parte de aceptar las cosas como son...',
                 img: 'jor-decep.webp'
             },
             {
-                desc: 'Tengo muchas ganas de saber que estás haciendo, que piensas, pero se que no me hará bien.',
+                desc: 'Solo quería que supieras que aquí vengo pensar en ti y en los niños.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Tengo muchas ganas de saber que estás haciendo, que piensas... pero se que no me hará bien.',
                 img: 'jor.webp'
             },
             {
@@ -631,12 +643,8 @@ export const lstStories = [
                 img: 'jor-triste.webp'
             },
             {
-                desc: 'No se si estás viendo esto, vaya... Me siento un poco loco por estar escribiendo esto, siento que estoy hablando solo, pero me ayuda.',
-                img: 'jor-decep.webp'
-            },
-            {
                 desc: 'Por favor abraza y besa a los niños por mi. Los extraño demasiado a todos ustedes',
-                img: 'jor-triste.webp'
+                img: 'jor-decep.webp'
             },
 
         ]

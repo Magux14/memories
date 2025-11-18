@@ -1,4 +1,3 @@
-// usePlanningPoker.js
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '../firebase';
 
