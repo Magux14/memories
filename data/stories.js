@@ -675,4 +675,40 @@ export const lstStories = [
             },
         ]
     },
+    {
+        id: 24,
+        name: 'Quiero ir',
+        date: '2025-11-19 (2)',
+        background: 'fumar.webp',
+        lstDialog: [
+            {
+                desc: 'Hoy casi me fallo a mi mismo.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Hoy es miércoles, se que vas al psicologo... de hecho en este preciso momento sé que estás ahí.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Estuve a punto de ir por ti.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'No dejo de sobrepensar las cosas, quiero ir por ti, pero sé que está mal, sé que tengo que dejarte ir, pero me cuesta mucho trabajo.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Mi cabeza no dejaba de pensar ¿y si voy? ¿que le voy a decir? ¿para que quiero ir? ¿y si voy y alguien más está pasando por ella? ¿y si me estaciono un poco lejos y solo la veo pasar?',
+                img: 'jor.webp'
+            },
+            {
+                desc: '¿pero para qué? No dejo de crear escenario imaginarios en donde si paso por ti.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Creo que si necesito ayuda.',
+                img: 'jor-decep.webp'
+            },
+        ]
+    },
 ]
