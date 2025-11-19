@@ -667,11 +667,11 @@ export const lstStories = [
             },
             {
                 desc: 'No sabía que mi celular hacía eso, pero viendo las fotos en la computadora, muchas fotos que te tomé se mueven.',
-                img: 'jor.webp'
+                img: 'jor-feliz.webp'
             },
             {
                 desc: 'Fue muy bonito, fue como estar ahí de nuevo.',
-                img: 'jor.webp'
+                img: 'jor-triste-feliz.webp'
             },
         ]
     },
