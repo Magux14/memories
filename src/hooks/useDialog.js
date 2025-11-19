@@ -18,7 +18,7 @@ export const useDialog = () => {
         story,
         setStory,
         nextDialog,
-        currentDialog: story ? story.lstDialog[currentDialogIndex] : null
+        currentDialog: story?.lstDialog ? story.lstDialog[currentDialogIndex] : null
     }
 
 }

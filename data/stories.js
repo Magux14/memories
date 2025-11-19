@@ -649,4 +649,11 @@ export const lstStories = [
 
         ]
     },
+    {
+        id: 22,
+        name: 'Fav Obj',
+        type: 'fallingObject',
+        img: 'fav_obj_cropped.webp',
+        date: '2025-11-18 (2)',
+    }
 ]

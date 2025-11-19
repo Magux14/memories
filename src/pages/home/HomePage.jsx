@@ -31,7 +31,7 @@ export const HomePage = () => {
                     <Login callbackClose={() => setHassPermision(true)} />
                     :
                     lstStoriesFiltered.map((item, index) =>
-                        <div className="home-page__story-container" key={item.name + index} onClick={() => goToStory(item)}>
+                        <div className={`home-page__story-container home-page__story-container--${item.type}`} key={item.name + index} onClick={() => goToStory(item)}>
                             <div>
                                 #{lstStoriesFiltered.length - index}. {item.name}
                             </div>

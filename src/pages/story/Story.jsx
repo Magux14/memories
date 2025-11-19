@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { DialogBox } from '../../components/dialog-box/DialogBox';
 import './story.scss';
 import { useFirebase } from '../../hooks/useFirebase';
+import { FallObject } from '../../components/fall-object/FallObject';
 
 export const Story = () => {
 
@@ -13,12 +14,15 @@ export const Story = () => {
     const { id } = useParams();
     const navigate = useNavigate()
 
-
     const handleNextDialog = () => {
         const finish = nextDialog();
         if (finish) {
             navigate('/');
         }
+    }
+
+    const close = () => {
+        navigate('/');
     }
 
     useEffect(() => {
@@ -41,22 +45,29 @@ export const Story = () => {
         }
     }, []);
 
+    if (!story) {
+        return;
+    }
+
     return (
         <>
             {
-                story &&
-                <div className="story__container"
-                    style={{
-                        backgroundImage: `url(../img/background/${story?.background ? story.background : 'default.webp'})`,
-                        backgroundSize: '120% auto',
-                        backgroundRepeat: 'no-repeat'
-                    }}
-                >
-                    <div className="story__date">
-                        {story.date}
+                story.type == 'fallingObject'
+                    ?
+                    <FallObject imgName={story.img} callbackClose={close} />
+                    :
+                    <div className="story__container"
+                        style={{
+                            backgroundImage: `url(../img/background/${story?.background ? story.background : 'default.webp'})`,
+                            backgroundSize: '120% auto',
+                            backgroundRepeat: 'no-repeat'
+                        }}
+                    >
+                        <div className="story__date">
+                            {story.date}
+                        </div>
+                        <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
                     </div>
-                    <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
-                </div>
             }
         </>
     )
