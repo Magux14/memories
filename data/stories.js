@@ -655,5 +655,24 @@ export const lstStories = [
         type: 'fallingObject',
         img: 'fav_obj_cropped.webp',
         date: '2025-11-18 (2)',
-    }
+    },
+    {
+        id: 23,
+        name: 'Se mueven',
+        date: '2025-11-19',
+        lstDialog: [
+            {
+                desc: 'Anoche estaba viendo unas fotos.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'No sabía que mi celular hacía eso, pero viendo las fotos en la computadora, muchas fotos que te tomé se mueven.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Fue muy bonito, fue como estar ahí de nuevo.',
+                img: 'jor.webp'
+            },
+        ]
+    },
 ]
