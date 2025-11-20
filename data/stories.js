@@ -719,10 +719,18 @@ export const lstStories = [
         lstDialog: [
             {
                 desc: 'Soy yo de nuevo, necesito saber algo...',
-                img: 'jor-decep.webp'
+                img: 'jor.webp'
             },
             {
-                desc: '¿Si yo hubiera sido quien le empezó a hablar a otra mujer todos los días, te hubiera escondido sus mensajes, si hubieras visto que constantemente le decía que nos vieramos, si hubiera hablado mal de ti con ella, burlándote de ti... y al verla me hubiera besado... aún contandote lo que pasó... ¿me hubieras perdonado?',
+                desc: '¿Si yo hubiera sido quien le empezó a hablar a otra mujer todos los días, te hubiera escondido sus mensajes, si hubieras visto que yo constantemente le decía que nos vieramos aunque fuera de broma, si hubiera hablado mal de ti con ella, burlándote de ti... y al verla me hubiera besado... aún contandote lo que pasó...',
+                img: 'jor-decep.webp',
+            },
+            {
+                desc: 'Y no solo, si no el hecho de que no me hablaste para que pasara por ti después de que pasó eso, que le hubieras dicho "que si valió la pena verlo" y luego que no me dijeras hasta que yo te lo pregunté...',
+                img: 'jor-decep.webp',
+            },
+            {
+                desc: 'Algo tan importante como eso, me lo tenías que decir a mi enseguida, tu pareja, la persona que te ama, que confiaba en tí. y que te hubieras esperado a que te preguntara, ¿Me hubieras perdonado?',
                 img: 'jor-decep.webp',
                 type: 'question'
             },
