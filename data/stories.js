@@ -711,4 +711,25 @@ export const lstStories = [
             },
         ]
     },
+    {
+        id: 25,
+        name: 'Solo necesito saber',
+        date: '2025-11-20',
+        background: 'sala.webp',
+        lstDialog: [
+            {
+                desc: 'Soy yo de nuevo, necesito saber algo...',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: '¿Si yo hubiera sido quien le empezó a hablar a otra mujer todos los días, te hubiera escondido sus mensajes, si hubieras visto que constantemente le decía que nos vieramos, si hubiera hablado mal de ti con ella, burlándote de ti... y al verla me hubiera besado... aún contandote lo que pasó... ¿me hubieras perdonado?',
+                img: 'jor-decep.webp',
+                type: 'question'
+            },
+            {
+                desc: '...',
+                img: 'jor-decep.webp'
+            },
+        ]
+    }
 ]

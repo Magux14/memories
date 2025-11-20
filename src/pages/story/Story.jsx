@@ -6,6 +6,7 @@ import { DialogBox } from '../../components/dialog-box/DialogBox';
 import './story.scss';
 import { useFirebase } from '../../hooks/useFirebase';
 import { FallObject } from '../../components/fall-object/FallObject';
+import { Question } from '../../components/question/Question';
 
 export const Story = () => {
 
@@ -66,6 +67,10 @@ export const Story = () => {
                         <div className="story__date">
                             {story.date}
                         </div>
+                        {
+                            currentDialog?.type == 'question' &&
+                            <Question story={story} callbackClose={handleNextDialog} />
+                        }
                         <DialogBox dialog={currentDialog} nextDialog={() => handleNextDialog()} />
                     </div>
             }
