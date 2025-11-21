@@ -1,8 +1,9 @@
 import { lstStories } from '../../../data/stories';
 import { useNavigate } from 'react-router-dom';
-import './home-page.scss';
 import { useEffect, useState } from 'react';
 import { Login } from '../../components/login/Login';
+import { BiCaretRightCircle } from "react-icons/bi";
+import './home-page.scss';
 
 export const HomePage = () => {
 
@@ -33,10 +34,20 @@ export const HomePage = () => {
                     lstStoriesFiltered.map((item, index) =>
                         <div className={`home-page__story-container home-page__story-container--${item.type}`} key={item.name + index} onClick={() => goToStory(item)}>
                             <div>
-                                #{lstStoriesFiltered.length - index}. {item.name}
+                                <span className="home-page__number">
+                                    #{lstStoriesFiltered.length - index}
+                                </span>
+                            </div>
+                            <div className="home-page__story-content-container">
+                                <div>
+                                    {item.name}
+                                </div>
+                                <div className="home-page__date">
+                                    {item.date}
+                                </div>
                             </div>
                             <div>
-                                {item.date}
+                                <BiCaretRightCircle />
                             </div>
                         </div>
                     )

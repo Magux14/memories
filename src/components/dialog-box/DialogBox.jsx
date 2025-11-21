@@ -1,3 +1,4 @@
+import { BiCaretDown } from 'react-icons/bi';
 import './dialog-box.scss';
 
 export const DialogBox = ({ dialog, nextDialog }) => {
@@ -6,6 +7,9 @@ export const DialogBox = ({ dialog, nextDialog }) => {
             <div className="dialog-box__container" onClick={() => nextDialog()}>
                 <span>
                     {dialog?.desc}
+                </span>
+                <span className="dialog-box__arrow-container">
+                    <BiCaretDown fill='black' />
                 </span>
             </div>
             {

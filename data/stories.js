@@ -763,5 +763,48 @@ export const lstStories = [
                 img: 'jor-decep.webp'
             },
         ]
+    },
+    {
+        id: 27,
+        name: 'Todo',
+        date: '2025-11-21 (2)',
+        lstDialog: [
+            {
+                desc: 'Me gustaría regresar el tiempo, haberte dicho más veces "te amo".',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'El decir "te amo" significa algo muy especial para mi, tal vez lo hice demasiado especial porque no te lo decía muy seguido.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Debí de habertelo dicho mucho más, ¿por qué no lo hice?, me arrepiento mucho de no haberlo hecho más.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Ahora es demasiado tarde...',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'TE AMO Nay...',
+                img: 'jor-triste.webp'
+            },
+            {
+                desc: 'Y odio no poder decirtelo de frente, odio tener que estar escribiendo todo por aquí sin siquiera saber si lo estás viendo, sin saber si por lo menos te importa...',
+                img: 'jor-triste.webp'
+            },
+            {
+                desc: 'Quisiera pensar que si, pero las últimas veces que hablé contigo fuista tan fría...',
+                img: 'jor-triste.webp'
+            },
+            {
+                desc: 'Me siguen diciendo que tomará tiempo porque fuiste una parte muy importante de mi vida, pero para mi no fuiste una parte...',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Para mi lo eres todo.',
+                img: 'jor-triste.webp'
+            },
+        ]
     }
 ]
