@@ -739,5 +739,29 @@ export const lstStories = [
                 img: 'jor-decep.webp'
             },
         ]
+    },
+    {
+        id: 26,
+        name: 'Noche difícil',
+        date: '2025-11-21',
+        background: 'fumar.webp',
+        lstDialog: [
+            {
+                desc: 'Salir de una relación por voluntad propia donde todavía amas a esa persona, es una de las cosas más díficiles que hay.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Me duele mucho y ayer lo sentí más que nunca.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Creo que me bloqueaste de whats o simplemente me borraste como contacto o nuestra conversación... ya no veo tu foto',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Soñé contigo, te extraño...',
+                img: 'jor-decep.webp'
+            },
+        ]
     }
 ]
