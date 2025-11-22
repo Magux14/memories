@@ -806,5 +806,28 @@ export const lstStories = [
                 img: 'jor-triste.webp'
             },
         ]
+    },
+    {
+        id: 28,
+        name: 'Jueves',
+        date: '2025-11-22',
+        lstDialog: [
+            {
+                desc: 'Me hubiera gustado jugar más contigo.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Esperaba con ansias los jueves porque sabía que jugaría contigo.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Se que no te gusta mucho jugar como a mi, esperaba a que tu me lo dijeras, no te quería presionar.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Cuando era jueves y no jugábamos, me sentía un poco mal, pero pensaba "no importa, estoy con ella y siempre habrá otro jueves."',
+                img: 'jor.webp'
+            }
+        ]
     }
 ]
