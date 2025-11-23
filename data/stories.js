@@ -829,5 +829,77 @@ export const lstStories = [
                 img: 'jor.webp'
             }
         ]
+    },
+    {
+        id: 29,
+        name: 'Último mensaje',
+        background: 'nuestra-foto.webp',
+        date: '2025-11-23',
+        lstDialog: [
+            {
+                desc: 'No te lo había dicho, pero esta es mi foto favorita de los 2, nos vemos tan felices...',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: '¿Cómo están los niños? los extraño mucho.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'He estado pensando mucho y aunque no lo aparentes, publiques que eres la más feliz y me hayas tratado muy friamente la última vez que nos vimos, tal ves si te sientas mal en el fondo, o al menos eso quiero creer.',
+                img: 'jor-decep.webp'
+            },
+            {
+                desc: 'Creo que no es justo de mi parte estarte escribiendo todo esto si te sientes mal al leerlo, no lo se... creo que es la parte de mi que quiere seguir contigo para toda la vida, como una forma de estar cerca de ti a través de un texto.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Pero mi intención nunca ha sido, ni será lastimarte.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Solo quiero que sepas que te deseo lo mejor Nay, mi vida, mi compañera, mi amor... en serio en serio en serio espero que seas muy feliz, espero que encuentres a alguien que te ame tanto o más de lo que yo lo hice.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Siempre te guardaré en mi corazón y creeme que nadie, NADIE te va a poder remplazar NUNCA.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Y de lo que pasó... Te perdono Nay.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: '¿Recuerdas que siempre me estuviste preguntando que qué quería de cumpleaños y nunca te decía?',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Me gustaría poder verte a ti y los niños una última vez.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'El día de mi cumpleaños estaré en el parque de los venados a las 2:00pm, junto a la cancha de basket, en una banca.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Espero y puedan ir, es todo lo que quiero de cumpleaños.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Entenderé si no llegan...',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Pero por favor... THOR es muy importante para mi, no dejes que se vaya sin que le diga adios. Si necesita algo él, tú o Nico, aquí estaré. Sabes como encontrarme.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Este será el último mensaje que suba aquí.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Nay... te mando un beso y un fuerte abrazo. TE ADORO - AKITHOR',
+                img: 'jor-feliz.webp'
+            },
+        ]
     }
 ]
