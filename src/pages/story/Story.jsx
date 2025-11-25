@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { useDialog } from '../../hooks/useDialog';
 import { lstStories } from '../../../data/stories';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { DialogBox } from '../../components/dialog-box/DialogBox';
 import './story.scss';
 import { useFirebase } from '../../hooks/useFirebase';
@@ -10,6 +10,7 @@ import { Question } from '../../components/question/Question';
 
 export const Story = () => {
 
+    const [openDate] = useState(new Date())
     const { story, setStory, nextDialog, currentDialog } = useDialog();
     const { writeDatafirebaseAsync } = useFirebase();
     const { id } = useParams();
@@ -18,6 +19,12 @@ export const Story = () => {
     const handleNextDialog = () => {
         const finish = nextDialog();
         if (finish) {
+            writeDatafirebaseAsync('finishedStories', {
+                storyName: story?.name,
+                startDate: openDate,
+                endDate: new Date(),
+                deviceInfo: navigator.userAgent
+            })
             navigate('/');
         }
     }
@@ -32,10 +39,9 @@ export const Story = () => {
             setStory(lstStories[index]);
             writeDatafirebaseAsync('stories', {
                 storyName: lstStories[index].name,
-                date: new Date(),
+                date: openDate,
                 deviceInfo: navigator.userAgent
             })
-
         }
     }, []);
 

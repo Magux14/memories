@@ -716,6 +716,7 @@ export const lstStories = [
         name: 'Solo necesito saber',
         date: '2025-11-20',
         background: 'sala.webp',
+        type: 'question',
         lstDialog: [
             {
                 desc: 'Soy yo de nuevo, necesito saber algo...',
