@@ -902,5 +902,33 @@ export const lstStories = [
                 img: 'jor-feliz.webp'
             },
         ]
+    },
+    {
+        id: 30,
+        name: 'No puedo',
+        background: 'patio.webp',
+        date: '2025-11-30',
+        lstDialog: [
+            {
+                desc: 'Sigo pensando en ti todos los días.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Las lágrimas no dejan de salir.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Te extraño mucho.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Hoy fui a tu casa... supongo que solo tenía la esperanza de verte a ti y a los niños aunque sea de lejos... aún cuando muero por correr a abrazarte.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Por favor cuídate mucho',
+                img: 'jor-n.webp'
+            },
+        ]
     }
 ]
