@@ -18,4 +18,100 @@
         right: 0;
         padding: 5px 10px;
     }
+
+    &__container--memories {
+        position: relative;
+        overflow: hidden;
+        filter: brightness(0.9) contrast(0.85) saturate(0.4);
+    }
+
+    /* Ruido VISIBILE + particulas */
+    &__container--memories::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.35;
+        /* MÁS ALTO PARA QUE SE NOTE */
+
+        background-image:
+            /* Scratches verticales VISIBLES */
+            repeating-linear-gradient(90deg,
+                rgba(255, 255, 255, 0.12) 0px,
+                rgba(255, 255, 255, 0.12) 1px,
+                rgba(0, 0, 0, 0) 4px),
+            /* Ruido GRANULAR fuerte */
+            repeating-linear-gradient(0deg,
+                rgba(255, 255, 255, 0.03) 0,
+                rgba(255, 255, 255, 0.03) 2px,
+                rgba(0, 0, 0, 0) 4px),
+            url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAQAAAC1+jfqAAAAJ0lEQVR42u3BAQ0AAADCIPunNscwAAAAAAAAAAAAAAAAAAAAAAADwG4w2AAGY1tFoAAAAAElFTkSuQmCC');
+        /* ruido grande */
+
+        mix-blend-mode: overlay;
+        /* SE VE EN CASI TODO */
+        animation: dustMove .2s infinite steps(2);
+    }
+
+    /* Distorsión horizontal */
+    &__container--memories::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+
+        background: repeating-linear-gradient(to bottom,
+                rgba(255, 255, 255, 0.10) 0px,
+                rgba(255, 255, 255, 0.03) 3px,
+                rgba(0, 0, 0, 0) 8px);
+
+        opacity: 0.2;
+        /* visibilidad */
+        mix-blend-mode: lighten;
+        animation: vhsDistort 1.7s infinite linear;
+    }
+
+    @keyframes dustMove {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(-3px);
+        }
+    }
+
+    @keyframes vhsDistort {
+        0% {
+            transform: translateX(0);
+        }
+
+        12% {
+            transform: translateX(-4px);
+        }
+
+        15% {
+            transform: translateX(2px);
+        }
+
+        18% {
+            transform: translateX(-6px);
+        }
+
+        25% {
+            transform: translateX(0);
+        }
+
+        55% {
+            transform: translateX(1px);
+        }
+
+        70% {
+            transform: translateX(-3px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
 }

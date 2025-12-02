@@ -63,7 +63,7 @@ export const Story = () => {
                     ?
                     <FallObject imgName={story.img} callbackClose={close} />
                     :
-                    <div className="story__container"
+                    <div className={`story__container story__container--${story.type}`}
                         style={{
                             backgroundImage: `url(../img/background/${story?.background ? story.background : 'default.webp'})`,
                             backgroundSize: '120% auto',

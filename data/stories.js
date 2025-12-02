@@ -930,5 +930,87 @@ export const lstStories = [
                 img: 'jor-n.webp'
             },
         ]
+    },
+    {
+        id: 31,
+        name: 'Siguió adelante',
+        background: 'memories.webp',
+        date: '2025-12-02',
+        type: 'memories',
+        lstDialog: [
+            {
+                desc: 'Deberías estar emocionado por lo de estados unidos, ¿qué pasa?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'No lo estoy, no puedo evitarlo...',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'No puedo sacarla de mi cabeza, la extraño demasiado, este tipo de viaje quería que fuera con ella, y ahora solo de pensar en eso me causa mucha tristeza. Quisiera regresar el tiempo y evitar que todo esto pasara.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Hicieras lo que hicieras esto no iba a cambiar. Tienes que entender que ella ya te sacó de su vida y siguió adelante.',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Solo mira lo que publica, básicamente tú eres el malo de la historia y ella como si nada, tú lo viste, ella es la "más feliz".',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Lo se... pero no dejo de pensar cuanto tiempo pasará para ella salga con alguien más, inicie algo nuevo, cuanto tiempo pasará para que bese a alguien más... para que se acueste con alguien más.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Pero eso ya lo hizo...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Una parte de mi quiere creer que no...',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Tienes que trabajar en ti, no te debe importar lo que ella haga o no haga.',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Que tal que se casa, ¿que tal que se embaraza y tiene hijos? ahí la perdería para siempre.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Pero tú ni querías hijos.',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Si te soy sincero... Con ella si los hubiera tenido',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Tienes que ser fuerte',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Lo sé',
+                img: 'jor.webp'
+            },
+        ]
     }
 ]

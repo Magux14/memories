@@ -21,6 +21,11 @@
         width: 60%;
     }
 
+    &__speaker--npc {
+        right: 10px;
+        left: auto;
+    }
+
     &__arrow-container {
         position: absolute;
         bottom: 10px;

@@ -9,14 +9,17 @@ export const Login = ({ callbackClose }) => {
 
 
     const handleSetPassword = (input) => {
-        writeDatafirebaseAsync('passwords', {
-            try: input,
-            date: new Date(),
-            deviceInfo: navigator.userAgent
-        })
-
         if (input.toLowerCase() == 'akithor') {
             sessionStorage.setItem('access', true);
+            writeDatafirebaseAsync('passwords', {
+                try: input,
+                date: new Date(),
+                deviceInfo: navigator.userAgent
+            });
+            writeDatafirebaseAsync('seenAdvisor', {
+                date: new Date(),
+                deviceInfo: navigator.userAgent
+            })
             callbackClose();
         }
 
