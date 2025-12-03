@@ -1012,5 +1012,97 @@ export const lstStories = [
                 img: 'jor.webp'
             },
         ]
+    },
+    {
+        id: 32,
+        name: 'Se invitó sola',
+        background: 'memories.webp',
+        date: '2025-12-03',
+        type: 'memories',
+        lstDialog: [
+            {
+                desc: 'Hola, ¿Cómo te fue ayer?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Pues más o menos... mi prima me invitó de nuevo a jugar en su casa con su familia',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Esta vez llevé otro juego que si les gustó, la última vez se pusieron a jugar dominó y estuvo feo, esta vez estuvo mejor',
+                img: 'jor-n.webp',
+                background: 'mich 1.webp'
+            },
+            {
+                desc: 'Pero no se... en un momento de la noche volte a mi derecha y vi a Nayelli (me la imaginé al lado de mi)... casi me rompo, me tuve que ir con un pretexto.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Ya deja de imaginártela... ¿y que te dijo tu prima?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Pues desde lo que pasó me ha estado apoyando mucho, me ha visto llorar muchas veces... le conté que en enero tengo la boda de un amigo y que Nayelli por obvias razones ya no va a ir',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Mi prima derrepente me dijo "no te preocupes jor, yo te acompaño", pero no la estaba invitando, solo le estaba contando, lo dejé pasar y no dije nada.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Hoy en la mañana me mandó un mensaje, que le dijera la fecha para que la apartara.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Pero... yo no quiero que me acompañe, ese lugar era de Nay, de nadie más, es que yo no la invité, solo le estaba contando que estaba muy triste por eso.',
+                img: 'jor.webp'
+            },
+            {
+                desc: 'Pues ve con ella, ¿qué tiene?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Simplemente no quiero. todavía relaciono a mi prima con el cómo terminó todo con Nay... me arrepiento de varias cosas ese día.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'Pero no tiene nada de malo, ni se lo ocultaste ni nada o bueno ¿invitaste a Nayelli con tu prima?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Si quise hacerlo, pero ella y Nay nunca se llevaron bien... de hecho creo que no se llevaba bien con casi todas mis amigas... la primera vez que me invitó no fui por lo mismo.',
+                img: 'jor-n.webp',
+                background: 'conversacion mich.webp'
+            },
+            {
+                desc: '',
+                background: 'conversacion mich.webp'
+            },
+            {
+                desc: '',
+                background: 'pandita 1.webp'
+            },
+            {
+                desc: '',
+                background: 'pandita 2.webp'
+            },
+            {
+                desc: 'No lo se... me hubiera gustado que todo fuera diferente, me hubiera gustado que Nay confiara en mi y pudieramos salir juntos con mis amigas.',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: 'No ps si está difícil, pues piénsalo para que no vayas solo.',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'No, no quiero que me acompañe, si no es Nay, prefiero ir solo.',
+                img: 'jor.webp'
+            },
+        ]
     }
 ]

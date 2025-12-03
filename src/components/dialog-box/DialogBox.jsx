@@ -14,7 +14,7 @@ export const DialogBox = ({ dialog, nextDialog }) => {
             </div>
             {
                 dialog?.img &&
-                <img className={`dialog-box__speaker ${dialog.npc ? 'dialog-box__speaker--npc' : ''}`} src={`.././img/characters/${dialog.img}`} />
+                <img key={new Date().getMilliseconds()} className={`dialog-box__speaker ${dialog.npc ? 'dialog-box__speaker--npc' : ''}`} src={`.././img/characters/${dialog.img}`} />
             }
         </>
     )

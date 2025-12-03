@@ -56,6 +56,15 @@ export const Story = () => {
         return;
     }
 
+    const getBackground = () => {
+        const mainPath = '../img/background';
+        if (currentDialog?.background) {
+            return `../img/memories/${story.name}/${currentDialog.background}`;
+        }
+
+        return `${mainPath}/${story?.background ? story.background : 'default.webp'}`
+    }
+
     return (
         <>
             {
@@ -63,16 +72,16 @@ export const Story = () => {
                     ?
                     <FallObject imgName={story.img} callbackClose={close} />
                     :
-                    <div className={`story__container story__container--${story.type}`}
-                        style={{
-                            backgroundImage: `url(../img/background/${story?.background ? story.background : 'default.webp'})`,
-                            backgroundSize: '120% auto',
-                            backgroundRepeat: 'no-repeat'
-                        }}
-                    >
+                    <div className={`story__container story__container--${story.type}`}                    >
                         <div className="story__date">
                             {story.date}
                         </div>
+
+                        <img
+                            src={getBackground()}
+                            className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
+                            alt=""
+                        />
                         {
                             currentDialog?.type == 'question' &&
                             <Question story={story} callbackClose={handleNextDialog} />
