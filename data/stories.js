@@ -1095,6 +1095,10 @@ export const lstStories = [
                 img: 'jor-n.webp'
             },
             {
+                desc: 'Es trsite ¿sabes? realmente me alejé mucho de mis amigas y Nay nunca pudo verlo...',
+                img: 'jor-n.webp'
+            },
+            {
                 desc: 'No ps si está difícil, pues piénsalo para que no vayas solo.',
                 img: 'npc.webp',
                 npc: true
