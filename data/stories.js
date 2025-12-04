@@ -1108,5 +1108,173 @@ export const lstStories = [
                 img: 'jor.webp'
             },
         ]
+    },
+    {
+        id: 33,
+        name: 'Recuerdos bonitos',
+        background: 'memories.webp',
+        date: '2025-12-04',
+        type: 'memories',
+        lstDialog: [
+            {
+                desc: 'Siento que ahorita solo te estás acordando de las cosas bonitas',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Es que fueron muchas cosas la verdad, con ella si tuve cosas muy bonitas',
+                img: 'jor-n.webp'
+            },
+            {
+                desc: '¿Qué es lo que extrañas de ella?',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Con ella me sentía amado... siempre me hacía cariñitos y masajito... aunque estuviera cansada, eso me hacía muy feliz.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Siempre me preguntó que quería comer aunque no hubiera nada, pero si si había me lo hacía',
+                img: 'jor-feliz.webp',
+                background: 'cocinar.webp'
+            },
+            {
+                desc: 'Éramos un gran equipo económicamente hablando, ella siempre aporto por igual a la relación y creeme que de eso es muy difícil de encontrar',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Si, bastante...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Se preocupaba por acompañarme a cosas médicas cuando me lastimaba o así, yo apreciaba mucho que estuviera ahí, sosteniendo mi mano...',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'No sabes lo feliz que me sentí cuando me dijo que quería acompañarme a la fisioterapia aunque estuviéramos terminando, la amé.',
+                img: 'jor-triste-feliz.webp'
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Se preocupaba por ayudar a mis amigos, aunque no fueran suyos, siempre preguntaba que cómo los podíamos apoyar, siempre quería invitarlos a la casa... jaja no se por qué.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Era limpia y ordenada',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Hacía el esfuerzo de jugar conmigo aunque no tuviera muchas ganas, pero lo hacía porque sabía que me hacía feliz.',
+                img: 'jor-feliz.webp',
+                background: 'juegos.webp'
+            },
+            {
+                desc: 'Es raro, desde que ya no estamos juntos cada vez juego menos...',
+                img: 'jor-n.webp',
+                background: 'juegos.webp'
+            },
+            {
+                desc: 'Cuando no teníamos dinero trataba de acoplarse al presupuesto, aunque no siempre le salía jaja, pero en serio lo intentaba y eso lo aprecio mucho.',
+                img: 'jor-feliz.webp'
+            },
+            {
+                desc: 'Pasaba tiempo de calidad conmigo... recuerdo una vez que fuimos a valle de bravo a una cabaña, Nay, Thor y yo...',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Es un recuerdo muy bonito, estábamos los 3 sentados junto a la fogata, me dieron ganas de llorar, pero llorar de felicidad, porque estábamos ahí los 3, como una familia y me sentía muy feliz, pero me aguanté las ganas, creo que nunca se lo dije.',
+                img: 'jor-triste-feliz.webp',
+                background: 'juntos.webp'
+            },
+            {
+                desc: 'Ahora que lo pienso, muchas de las fotos de nosotros como familia las tomó ella, pero nunca se las pedí... quisiera tenerlas.',
+                img: 'jor-n.webp',
+                background: 'juntos.webp'
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Siempre me preguntaba que quería escuchar en el coche, eso era algo muy lindo de ella, me ayudaba a poner la cámara y a guardarla, siempre agarraba el boleto de estacionamiento...',
+                img: 'jor-feliz.webp',
+                background: 'carro.webp'
+            },
+            {
+                desc: 'Ahora cada que voy a un estacionamiento pienso en ella porque ya nadie agarra el boleto.',
+                img: 'jor-n.webp',
+                background: 'carro.webp'
+            },
+            {
+                desc: 'Sé lo que se siente eso...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Me daba de su comida cuando yo me había acabado la mía, aunque ella aún tuviera hambre, eso era algo hermoso de ella, realmente lo extraño mucho.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Aunque yo no me quería casar y ella si, nunca me dejó por eso.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: '¿Sabes? siempre me ofrecia su ayuda, aunque después no me ayudara exactamente en lo que le pedía, pero su intención estaba ahí, me quería ayudar.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Cuando me enfermaba hacía mis tareas del hogar, como cocinar, lavar los trastes y cosas así...',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Cuando dormíamos juntos siempre me abrazaba, no sabes cuanto extraño eso, el tenerla a mi lado sintiendo todo su amor... eso siempre lo guardaré en mi corazón.',
+                img: 'jor-n.webp',
+                background: 'abrazar.webp'
+            },
+            {
+                desc: 'Cuando despertaba, amaba verla a mi lado, durmiendo... no le gustaba que le tomara fotos, pero se veía tan hermosa...',
+                img: 'jor-triste-feliz.webp',
+                background: 'durmiendo.webp'
+            },
+            {
+                desc: 'Casi siempre me incluía en sus planes por default, eso me gustaba mucho, me sentía importante en su vida.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Cuando ella iba al mercado me traía mis empanaditas de cajeta que me gustaban tanto, me gustaba que se acordara de mi al verlas.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: '...',
+                img: 'npc.webp',
+                npc: true
+            },
+            {
+                desc: 'Y creo que lo más bonito de ella, es que me siempre me decía "te amo", algo que ahorita me está haciendo mucha pero mucha falta...',
+                img: 'jor-n.webp',
+                background: 'te-amo.webp'
+            },
+            {
+                desc: 'Sin duda, tengo recuerdos muy bonitos de Nay...',
+                img: 'jor-n.webp',
+                background: 'te-amo.webp'
+            },
+            {
+                desc: '',
+                background: 'te-amo.webp'
+            },
+        ]
     }
 ]
