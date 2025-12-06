@@ -1276,5 +1276,49 @@ export const lstStories = [
                 background: 'te-amo.webp'
             },
         ]
+    },
+    {
+        id: 34,
+        name: 'Santa desparramado',
+        date: '2025-12-06',
+        lstDialog: [
+            {
+                desc: 'Se que dije que ya no escribiría más mensajes',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Pero me di cuenta de que todavía no estoy listo para dejar de escribirte, aún apareces en mis sueños...',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: '¿Sabes? este fin de semana me tocó trabajar de 4:00pm a 12:00am, He estado viendo la retro, pero no es lo mismo si no la estoy viendo contigo.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'De repente estoy viendo algo absurdo y literal digo sin querer y espontáneamente "¿¡tu crees Nay!?"',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Y me doy cuenta de que no estás aquí... y... me duele mucho.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Me haces mucha falta.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'ya empezaron los anuncios navideños en la retro, pero solo me hacen pensar en ti, se siente solitiario verla así...',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Me hubiera gustado que todo hubiera sido diferente y estar contigo viéndola en este momento...',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: '',
+                type: 'video',
+                src: 'retro-tv.mp4'
+            },
+        ]
     }
 ]

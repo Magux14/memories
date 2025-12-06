@@ -76,12 +76,17 @@ export const Story = () => {
                         <div className="story__date">
                             {story.date}
                         </div>
-
-                        <img
-                            src={getBackground()}
-                            className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
-                            alt=""
-                        />
+                        {
+                            currentDialog?.type == 'video'
+                                ?
+                                <video className={`story__video story__image--flash`} src={`../video/${currentDialog?.src}`} autoPlay={true} controls={true}></video>
+                                :
+                                <img
+                                    src={getBackground()}
+                                    className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
+                                    alt=""
+                                />
+                        }
                         {
                             currentDialog?.type == 'question' &&
                             <Question story={story} callbackClose={handleNextDialog} />
