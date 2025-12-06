@@ -1307,7 +1307,7 @@ export const lstStories = [
                 img: 'jor-n.webp',
             },
             {
-                desc: 'ya empezaron los anuncios navideños en la retro, pero solo me hacen pensar en ti, se siente solitiario verla así...',
+                desc: 'ya empezaron los anuncios navideños en la retro, pero solo me hacen pensar en ti, se siente solitario verla así...',
                 img: 'jor-n.webp',
             },
             {
