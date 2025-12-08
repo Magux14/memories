@@ -34,7 +34,7 @@ export const lstStories = [
         background: 'se-lleva-niños.webp',
         lstDialog: [
             {
-                desc: 'Hoy te fuiste a los niños, te fuiste a casa de tu mamá y te los llevaste...',
+                desc: 'Hoy te fuiste con los niños, te fuiste a casa de tu mamá y te los llevaste...',
                 img: 'jor.webp'
             },
             {
@@ -1319,6 +1319,91 @@ export const lstStories = [
                 type: 'video',
                 src: 'retro-tv.mp4'
             },
+        ]
+    },
+    {
+        id: 35,
+        name: 'Solo es un sueño',
+        background: 'memories.webp',
+        date: '2025-12-08',
+        type: 'memories',
+        lstDialog: [
+            {
+                desc: 'Buenos días joven',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'Buenos días, ¿cómo amaneciste?',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Bien bien y tú?',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'Pues algo conflictuado, sigo soñando con ella',
+                img: 'jor.webp',
+            },
+            {
+                desc: '¿Ahora que soñaste?',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'Han sido varios... los últimos 2 emmm, estábamos como en una especie de edificio en la parte de afuera, era una explanada, me acercaba a ella y la abrazaba',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Intentaba besarla y ella me apartaba y decía "no podemos" y yo preguntaba "¿por qué no?"',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Miraba su cara y creía entender lo que estaba pasando, había alguien más.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Le preguntaba de nuevo y ella no respondía, entonces me despertaba, intenté volver a dormirme para regresar a ese momento, pero no fue posible.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Ayyy jor :(, nu sueñes esas cosas',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'No lo se... hoy soñé que estaba en un tipo de casa, ella llegaba y estaba embarazada, sabíamos que no podíamos estar juntos, esta vez ella se acercaba y por inercia nos besábamos, solo un poco, se apartaba y me decía lo mismo, "no podemos".',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Es un poco irónico, podré bloquearla de redes sociales para no lastimarme al ver lo que sube, pero no puedo bloquearla de mis sueños ni pensamientos',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Pero ¿sabes? me gusta verla, me gusta pensar que aún piensa en mi, que me busca, aunque sea solamente en mis sueños.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Gracias por contarme eso tan personal Jor... Amm',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'A veces los sueños luego pueden ser raros y confusos, pero en verdad espero que puedas encontrar la calma y que todo se acomoode dentro de ti...',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+            {
+                desc: 'Pero no se, no dejo de pensar que solo se "interesa" por mi en mis sueños, porque en la vida real pues no creo :( jaja',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Siento que sueñas con ella por estar constantemente pensando en ella, no porque ella esté pensando en ti...',
+                img: 'npc-m2.webp',
+                npc: true
+            },
+
         ]
     }
 ]

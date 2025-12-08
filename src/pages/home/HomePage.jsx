@@ -16,6 +16,15 @@ export const HomePage = () => {
 
     const lstStoriesFiltered = lstStories.filter(item => item.name).toSorted((a, b) => a.date < b.date ? 1 : -1);
 
+    const getStoryType = (type) => {
+        switch (type) {
+            case 'memories': return 'Recuerdos';
+            case 'fallingObject': return 'Objetos';
+            case 'question': return 'Preguntas';
+            default: return 'Diario';
+        }
+    }
+
     useEffect(() => {
         const haveAccess = sessionStorage.getItem('access');
         if (haveAccess) {
@@ -43,7 +52,7 @@ export const HomePage = () => {
                                     {item.name}
                                 </div>
                                 <div className="home-page__date">
-                                    {item.date}
+                                    {item.date} - {getStoryType(item.type)}
                                 </div>
                             </div>
                             <div>
