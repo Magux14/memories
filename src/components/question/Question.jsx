@@ -41,7 +41,7 @@ export const Question = ({ story, callbackClose }) => {
 
     return (
         <div className="question__container">
-            <textarea className="question__textarea" onChange={(ev) => setText(ev.target.value)}></textarea>
+            <textarea placeholder="Escribe tu respuesta" className="question__textarea" onChange={(ev) => setText(ev.target.value)}></textarea>
             <button className="question__button" onClick={() => handleAnswer()} disabled={text.length < 2}>Contestar</button>
         </div>
     )

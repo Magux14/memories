@@ -7,6 +7,7 @@ import './story.scss';
 import { useFirebase } from '../../hooks/useFirebase';
 import { FallObject } from '../../components/fall-object/FallObject';
 import { Question } from '../../components/question/Question';
+import { HitDices } from '../../components/mini-games/hit-dices/HitDices';
 
 export const Story = () => {
 
@@ -33,6 +34,45 @@ export const Story = () => {
         navigate('/');
     }
 
+    const getGameComponent = (name) => {
+        switch (name) {
+            case 'hitDices': return <HitDices callbackClose={close} callbackSuccess={handleNextDialog} />
+            default: <></>
+        }
+    }
+
+    const getBackground = () => {
+        const mainPath = '../img/background';
+        if (currentDialog?.background) {
+            return `../img/memories/${story.name}/${currentDialog.background}`;
+        }
+
+        return `${mainPath}/${story?.background ? story.background : 'default.webp'}`
+    }
+
+    const renderDialog = (currentDialog) => {
+
+        if (currentDialog) {
+            if (currentDialog.type == 'video') {
+                return <video className={`story__video story__image--flash`} src={`../video/${currentDialog?.src}`} autoPlay={true} controls={true}></video>
+            }
+
+            if (currentDialog.type == 'game') {
+                return <>
+                    {
+                        getGameComponent(currentDialog.gameName)
+                    }
+                </>
+            }
+        }
+
+        return <img
+            src={getBackground()}
+            className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
+            alt=""
+        />
+    }
+
     useEffect(() => {
         const index = lstStories.findIndex(item => item.id == id);
         if (index != -1) {
@@ -56,15 +96,6 @@ export const Story = () => {
         return;
     }
 
-    const getBackground = () => {
-        const mainPath = '../img/background';
-        if (currentDialog?.background) {
-            return `../img/memories/${story.name}/${currentDialog.background}`;
-        }
-
-        return `${mainPath}/${story?.background ? story.background : 'default.webp'}`
-    }
-
     return (
         <>
             {
@@ -77,15 +108,7 @@ export const Story = () => {
                             {story.date}
                         </div>
                         {
-                            currentDialog?.type == 'video'
-                                ?
-                                <video className={`story__video story__image--flash`} src={`../video/${currentDialog?.src}`} autoPlay={true} controls={true}></video>
-                                :
-                                <img
-                                    src={getBackground()}
-                                    className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
-                                    alt=""
-                                />
+                            renderDialog(currentDialog)
                         }
                         {
                             currentDialog?.type == 'question' &&

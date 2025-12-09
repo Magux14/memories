@@ -1,0 +1,38 @@
+.hit-dices {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 20px;
+    }
+
+    &__dices-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__dice {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        background: white;
+        border: 3px solid rgb(89, 179, 238);
+        border-radius: 5px;
+        height: 120px;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    &__button {
+        border-radius: 8px;
+        color: white;
+        background: green;
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+}

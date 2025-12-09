@@ -21,6 +21,7 @@ export const HomePage = () => {
             case 'memories': return 'Recuerdos';
             case 'fallingObject': return 'Objetos';
             case 'question': return 'Preguntas';
+            case 'game': return 'Mini-Juego';
             default: return 'Diario';
         }
     }

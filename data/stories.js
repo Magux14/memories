@@ -1405,5 +1405,25 @@ export const lstStories = [
             },
 
         ]
+    },
+    {
+        id: 36,
+        name: 'Just a beautiful dream',
+        background: 'memories.webp',
+        date: '2025-12-09',
+        type: 'game',
+        lstDialog: [
+            {
+                desc: '',
+                img: '',
+                type: 'game',
+                gameName: 'hitDices'
+            },
+            {
+                desc: 'Últimamente pienso mucho en nuestra familia.',
+                img: '',
+                background: 'family.webp'
+            },
+        ]
     }
 ]

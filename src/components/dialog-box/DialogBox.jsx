@@ -4,7 +4,7 @@ import './dialog-box.scss';
 export const DialogBox = ({ dialog, nextDialog }) => {
     return (
         <>
-            <div className="dialog-box__container" onClick={() => nextDialog()}>
+            <div className="dialog-box__container" onClick={() => dialog?.type == 'game' ? null : nextDialog()}>
                 <span>
                     {dialog?.desc}
                 </span>
