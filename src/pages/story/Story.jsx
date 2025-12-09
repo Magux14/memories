@@ -50,29 +50,6 @@ export const Story = () => {
         return `${mainPath}/${story?.background ? story.background : 'default.webp'}`
     }
 
-    const renderDialog = (currentDialog) => {
-
-        if (currentDialog) {
-            if (currentDialog.type == 'video') {
-                return <video className={`story__video story__image--flash`} src={`../video/${currentDialog?.src}`} autoPlay={true} controls={true}></video>
-            }
-
-            if (currentDialog.type == 'game') {
-                return <>
-                    {
-                        getGameComponent(currentDialog.gameName)
-                    }
-                </>
-            }
-        }
-
-        return <img
-            src={getBackground()}
-            className={`story__image ${story.type == 'memories' && currentDialog?.background ? 'story__image--flash' : ''}`}
-            alt=""
-        />
-    }
-
     useEffect(() => {
         const index = lstStories.findIndex(item => item.id == id);
         if (index != -1) {
@@ -91,6 +68,29 @@ export const Story = () => {
             navigate('/');
         }
     }, []);
+
+    const renderDialog = (currentDialog) => {
+
+        if (currentDialog) {
+            if (currentDialog.type == 'video') {
+                return <video className={`story__video story__image--flash`} src={`../video/${currentDialog?.src}`} autoPlay={true} controls={true}></video>
+            }
+
+            if (currentDialog.type == 'game') {
+                return <>
+                    {
+                        getGameComponent(currentDialog.gameName)
+                    }
+                </>
+            }
+        }
+
+        return <img
+            src={getBackground()}
+            className={`story__image ${(story.type == 'memories' || story.type == 'game') && currentDialog?.background ? 'story__image--flash' : ''}`}
+            alt=""
+        />
+    }
 
     if (!story) {
         return;

@@ -1409,18 +1409,26 @@ export const lstStories = [
     {
         id: 36,
         name: 'Just a beautiful dream',
-        background: 'memories.webp',
+        background: 'black-family.webp',
         date: '2025-12-09',
         type: 'game',
         lstDialog: [
             {
-                desc: '',
+                desc: 'Junta 3 figuras iguales para ganar un premio.',
                 img: '',
                 type: 'game',
                 gameName: 'hitDices'
             },
             {
-                desc: 'Últimamente pienso mucho en nuestra familia.',
+                desc: 'Hola Nay...',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Quiero compartir contigo algo que guardaré con mucho amor en mi corazón por siempre.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Nuestra pequeña gran familia.',
                 img: '',
                 background: 'family.webp'
             },
