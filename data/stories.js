@@ -1433,5 +1433,64 @@ export const lstStories = [
                 background: 'family.webp'
             },
         ]
+    },
+    {
+        id: 37,
+        name: 'Mejor amiga',
+        date: '2025-12-10',
+        lstDialog: [
+            {
+                desc: '¿Recuerdas las veces que te decía que no podías ser mi mejor amiga porque eras más que eso?',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Pues si eres mucho más que eso, pero si... si eres mi mejor amiga.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Quisiera contarte tantas cosas que me han pasado últimamente, cada que veo algo chistoso, algo interesante o algo feo... pero ya no puedo contartelo a ti, así que lo escribiré aquí',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Comencé a correr como ejercicio desde que terminamos, pero a los 4 días me chingué la rodilla jaja al parecer estoy muy gordito como para correr así de putazo.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Empecé a cojear con mucho dolor, no se me quitaba, después de 2 semanas con el dolor tuve que ir con un ortopedista, a fisioterapia... (de nuevo ptm)',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Compré un colchón nuevo, lo compré super suave como nube, pero ¿qué crees? me empezó a doler la espalda baja a horas de estar acostado en él',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'No lo pude regresar, no me lo quisieron cambiar, llevo más de un mes sufriendo de la espalda baja... hasta ya lo tuve que voltear y acostarme en la parte dura, así no me duele tanto. Compré un sobrecolchón pero no ayudó mucho...',
+                img: 'jor-decep.webp',
+            },
+            {
+                desc: 'Mi mamá compró un boiler nuevo, pero está fallando muchísimo, prácticamente me tengo que bañar con cubetas calentándolas con una cosa eléctrica... jaja',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Fui a la cena de navidad con mis amigos, Galleta, Fer, Rolo, Juan... Chucho no vino. Estamos un poco enojados ya que no vino porque su esposa no podía venir, entonces como ella no podía venir no quiso venir para que ella no se enojara.',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Mi mamá me regaló un nintendo switch 2, si me gustó.',
+                img: 'jor-feliz.webp',
+            },
+            {
+                desc: 'Estoy a pocos de días de irme a Nueva York, pero no estoy emocionado, debería de estarlo ¿no? pero no lo estoy.',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Tengo el corazón roto... cada que comienza a doler demasiado vengo y escribo cosas aquí.',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'Creo que esto es lo más relevante... Realmente espero que tú estés muy bien. Te mando un abrazo.',
+                img: 'jor-n.webp',
+            }
+        ]
     }
 ]
