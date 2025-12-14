@@ -1492,5 +1492,75 @@ export const lstStories = [
                 img: 'jor-n.webp',
             }
         ]
+    },
+    {
+        id: 38,
+        name: 'De viaje',
+        date: '2025-12-14',
+        lstDialog: [
+            {
+                desc: 'Hola Nay, soy yo de nuevo...',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Hoy me voy a ir a nueva york, ya estoy haciendo mi maleta',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Y se me ocurrió algo...',
+                img: 'jor.webp',
+            },
+            {
+                desc: '¿Y si te haces bolita y te meto en mi maleta?',
+                img: 'jor-n.webp',
+                background: 'maleta.webp'
+            },
+            {
+                desc: 'Fingir que nada pasó y conocer el mundo juntos',
+                img: 'jor-n.webp',
+                background: 'maleta.webp'
+            },
+            {
+                desc: '¿Qué opinas?',
+                img: 'jor-n.webp',
+                background: 'maleta.webp'
+            },
+            {
+                desc: 'ya se ya se... sé que no responderás, solo me gusta pensar que si',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'El juego que hice el otro día de las "3 cartas iguales" me costó un poco de trabajo, me pregunto si lo hubieras podido completar a la primera',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Me gustaría que vieras lo que tiene después.',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Creo que solo estoy divagando...',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Bueno, supongo que ya me voy... prometo pensar en ti en mi viaje',
+                img: 'jor-n.webp',
+            },
+            {
+                desc: 'De hecho siempre estás conmigo...',
+                background: 'cartera.webp',
+            },
+            {
+                desc: 'Les mando un abrazo y un beso con mucho cariño a ti y a los niños',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Regresaré un día antes de mi cumpleaños',
+                img: 'jor.webp',
+            },
+            {
+                desc: 'Ese día de mi cumpleaños, iré a donde te dije y cerraré este diario, no sin antes escribir (y ahora si lo prometo) mi último mensaje',
+                img: 'jor.webp',
+            }
+        ]
     }
 ]
